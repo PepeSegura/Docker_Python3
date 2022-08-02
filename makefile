@@ -1,4 +1,4 @@
-IMG=psegura
+IMG=Image
 NAME=DEVenvironment
 
 run:
