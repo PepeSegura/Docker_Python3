@@ -7,5 +7,5 @@ RUN sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/inst
 COPY config/sublimemonokai.vim /root/.vim/colors/
 COPY config/.vimrc /root/
 
-RUN useradd -m pepe
-RUN echo "pepe:admin" | chpasswd
+RUN useradd -m user
+RUN echo "user:admin" | chpasswd
