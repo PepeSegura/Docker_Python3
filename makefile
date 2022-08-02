@@ -1,4 +1,4 @@
-IMG=Image
+IMG=image_name
 NAME=DEVenvironment
 
 run:
