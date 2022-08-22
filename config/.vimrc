@@ -6,6 +6,7 @@ set smartindent
 set mouse=a
 set cursorline
 set ruler
+
 colorscheme sublimemonokai
 
 inoremap <C-c> <Esc>:Lex<cr>:vertical resize 35<cr>
