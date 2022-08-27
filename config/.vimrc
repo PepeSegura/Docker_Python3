@@ -9,12 +9,12 @@ set ruler
 
 colorscheme sublimemonokai
 
-"Ctr + C: abrir Lex (Explorador de Carpetas)"
+"Ctrl + C: abrir Lex (Explorador de Carpetas)"
 inoremap <C-c> <Esc>:Lex<cr>:vertical resize 35<cr>
 nnoremap <C-c> <Esc>:Lex<cr>:vertical resize 35<cr>
 
-"Ctr + J: mueve lineas una línea hacia abajo"
-"Ctr + K: mueve lineas una línea hacia arriba"
+"Ctrl + J: mueve lineas una línea hacia abajo"
+"Ctrl + K: mueve lineas una línea hacia arriba"
 inoremap <C-j> <Esc>:m .+1<CR>==gi
 inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
@@ -22,8 +22,8 @@ vnoremap <C-k> :m '<-1<CR>gv=gv
 nnoremap <c-j> :m .+1<CR>==
 nnoremap <c-k> :m .-2<CR>==
 
-"Ctr + D: comenta con //"
-"Ctr + A: quita el comentario"
+"Ctrl + D: comenta con //"
+"Ctrl + A: quita el comentario"
 inoremap <C-d> <Esc>:norm 0i//<CR>
 inoremap <C-a> <Esc>:norm 0xx<CR>
 vnoremap <C-d> :'<,'>:norm i//<CR>
